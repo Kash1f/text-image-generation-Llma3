@@ -12,8 +12,7 @@ const CustomText = ({
 }) => {
   return (
     <View>
-      <Text style={{ fontWeight, color, opacity, fontSize }} {...props}>
-        {children}
+      <Text style={{ fontWeight, color, opacity, fontSize }} {...props}> {children}
       </Text>
     </View>
   );
